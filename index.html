@@ -95,7 +95,7 @@
 
         $(document).scroll(function() {
             var body = $('.leftbox');
-            var steps = Math.floor(2400) //length of transition;
+            var steps = Math.floor(1000) //length of transition;
             var position = $(this).scrollTop();
             var currentStep = Math.floor(position / steps);
             if (currentStep === colors.length) currentStep = colors.length - 1;
@@ -163,6 +163,7 @@
                 $('.pencilposter').fadeOut();
             }
         });
+
     </script>
 
 </body>
