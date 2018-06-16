@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Connie Zheng Design</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/jscript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src=”scripts.js”></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Rubik:400,700,900" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <div class="nav">
+        <ul class="ul" id="ul">
+            <li id="name"><a href="index.html">CONNIE ZHENG</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">WORK
+      <i class="fa fa-caret-down"></i>
+    </button>
+                <div class="dropdown-content">
+                    <a href="project1.html">Marketing Icon Gifs</a>
+                    <a href="project2.html">Didot Type Book</a>
+                    <a href="project3.html">Spatial Translation</a>
+                    <a href="project4.html">Visual Explanation</a>
+                </div>
+            </div>
+            <li><a href="about.html">ABOUT/CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="leftbox">
+        <img src="images/poster.gif" class="postergif">
+        <img src="images/marketinggif.gif" class="marketingimage">
+        <img src="images/didot.gif" class="didotbook">
+        <img src="images/bridge.jpg" class="bridgebook">
+        <img src="images/pencil.jpg" class="pencilposter">
+    </div>
+
+
+    <div class="rightbox">
+        <h class="greeting">
+            Hello!<br> My name is Connie and I make stuff...
+        </h>
+    </div>
+    <div class="image1"></div>
+
+    <div class="project1">
+        <h class="title1" id="title1">MARKETING ICON GIFS</h>
+        <p class="text">Over my 2017 summer internship at Cool Nerds Marketing, I was tasked to create moving icons for their website, specifically with the goal of explaining marketing concepts through images as well as to create an incentive for viewers of the website to read the text... </p>
+        <p class="link"><a href="project1.html" id="explore">explore project</a></p>
+    </div>
+    <div class="image1"></div>
+    <div class="project2">
+        <h class="title1" id="title1">DIDOT TYPE BOOK</h>
+        <p class="text">Over my 2017 summer internship at Cool Nerds Marketing, I was tasked to create moving icons for their website, specifically with the goal of explaining marketing concepts through images as well as to create an incentive for viewers of the website to read the text... </p>
+        <p class="link"><a href="project2.html" id="explore">explore project</a> </p>
+    </div>
+
+    <div class="image1"></div>
+    <div class="project3">
+        <h class="title1" id="title1">SPATIAL TRANSLATION</h>
+        <p class="text">Over my 2017 summer internship at Cool Nerds Marketing, I was tasked to create moving icons for their website, specifically with the goal of explaining marketing concepts through images as well as to create an incentive for viewers of the website to read the text... </p>
+        <p class="link"><a href="project3.html" id="explore">explore project</a> </p>
+    </div>
+
+    <div class="image1"></div>
+    <div class="project4">
+        <h class="title1" id="title1">VISUAL TRANSLATION</h>
+        <p class="text">Over my 2017 summer internship at Cool Nerds Marketing, I was tasked to create moving icons for their website, specifically with the goal of explaining marketing concepts through images as well as to create an incentive for viewers of the website to read the text... </p>
+        <p class="link"><a href="project4.html" id="explore">explore project</a> </p>
+    </div>
+    <div class="image1"></div>
+    <div class="space"></div>
+
+
+
+
+    <script>
+        var colors = [
+            [252, 192, 0], // Gold
+            [158, 158, 158], // Red
+            [128, 193, 151], // Green
+            [65, 115, 203], // Blue
+            [255, 184, 184] // Lime
+
+        ];
+
+        var height = $('.rightbox').height() - window.innerHeight;
+
+        $(document).scroll(function() {
+            var body = $('.leftbox');
+            var steps = Math.floor(2400) //length of transition;
+            var position = $(this).scrollTop();
+            var currentStep = Math.floor(position / steps);
+            if (currentStep === colors.length) currentStep = colors.length - 1;
+            var rgb = $("body").css('background-color').replace('rgb(', '').replace(')', '').replace(/\s/g, '').split(',');
+            var previousColor = colors[currentStep] || colors[0];
+            var nextColor = colors[currentStep + 1] || colors[colors.length - 1];
+            var percentFromThisStep = (position - (currentStep * steps)) / steps;
+            if (percentFromThisStep > 1) percentFromThisStep = 1;
+
+
+            var newRgb = [
+                Math.floor(previousColor[0] + ((nextColor[0] - previousColor[0]) * percentFromThisStep)),
+                Math.floor(previousColor[1] + ((nextColor[1] - previousColor[1]) * percentFromThisStep)),
+                Math.floor(previousColor[2] + ((nextColor[2] - previousColor[2]) * percentFromThisStep))
+            ];
+
+            $('.leftbox').css('background-color', 'rgb(' + newRgb.join(',') + ')');
+        });
+
+        $(window).scroll(function() {
+            $(".postergif").css("opacity", 1 - $(window).scrollTop() / 800);
+        });
+
+        $('.marketingimage').hide();
+
+        $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > $(document).height() * 0.15 && y < $(document).height() * 0.25) {
+                $('.marketingimage').fadeIn();
+            } else {
+                $('.marketingimage').fadeOut();
+
+            }
+        });
+
+        $('.didotbook').hide();
+
+        $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > $(document).height() * 0.27 && y < $(document).height() * 0.43) {
+                $('.didotbook').fadeIn();
+            } else {
+                $('.didotbook').fadeOut();
+            }
+        });
+
+        $('.bridgebook').hide();
+
+        $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > $(document).height() * 0.46 && y < $(document).height() * 0.63) {
+                $('.bridgebook').fadeIn();
+            } else {
+                $('.bridgebook').fadeOut();
+            }
+        });
+
+        $('.pencilposter').hide();
+
+        $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > $(document).height() * 0.68 && y < $(document).height() * 0.95) {
+                $('.pencilposter').fadeIn();
+            } else {
+                $('.pencilposter').fadeOut();
+            }
+        });
+    </script>
+
+</body>
+
+</html>
