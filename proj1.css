@@ -294,7 +294,7 @@ a:active {
 }
 
 .endspace {
-    height: 200px;
+    height: 100px;
 
 }
 
@@ -303,7 +303,7 @@ a:active {
     font-family: 'Roboto Mono';
     color: black;
     position: relative;
-    top: 15vh;
+    top: 10vh;
     left: 50vw;
 
 
