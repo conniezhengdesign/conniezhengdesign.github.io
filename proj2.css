@@ -115,6 +115,7 @@ li {
     width: 100vw;
     height: 100vh;
     display: flex;
+    position: relative;
 }
 
 .didot1 {
@@ -200,5 +201,41 @@ li {
     width: 90%;
     margin: auto;
     padding-top: 100%;
+
+}
+
+.didotimage7 {
+
+    width: 90%;
+    margin: auto;
+    padding-top: 115%;
+
+}
+
+.didotimage8 {
+
+    width: 90%;
+    margin: auto;
+    padding-top: 130%;
+
+}
+
+.endspace {
+    position: relative;
+    height: 20vh;
+    width: 100vw;
+    top: 270vh;
+    background-color: white;
+
+}
+
+.homelink {
+    font-size: 1.2vw;
+    font-family: 'Roboto Mono';
+    color: black;
+    position: relative;
+    left: 50vw;
+    top: 9vh;
+
 
 }
