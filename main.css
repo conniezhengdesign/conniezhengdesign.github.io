@@ -101,7 +101,7 @@ li {
 .dropdown:hover .dropdown-content {
     display: block;
     position: fixed;
-    top: 9.75vh;
+    top: 8vh;
     left: 65vw;
     width: 25vw;
 }
