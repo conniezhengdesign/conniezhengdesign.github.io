@@ -150,7 +150,51 @@ li {
 }
 
 .bridgesketch {
+    width: 70%;
+    margin: auto;
+    padding-top: 40vh;
+}
+
+.bridge2 {
+    width: 100%;
+    margin: auto;
+    padding-top: 50vh;
+}
+
+.bridge3 {
     width: 90%;
     margin: auto;
-    padding-top: 45vh;
+    padding-top: 90vh;
+}
+
+.bridge4 {
+    width: 50%;
+    margin: auto;
+    padding-top: 120vh;
+}
+
+.bridge5 {
+    width: 90%;
+    margin: auto;
+    padding-top: 180vh;
+}
+
+.endspace {
+    position: relative;
+    height: 20vh;
+    width: 100vw;
+    top: 270vh;
+    background-color: white;
+
+}
+
+.homelink {
+    font-size: 1.2vw;
+    font-family: 'Roboto Mono';
+    color: black;
+    position: relative;
+    left: 50vw;
+    top: 9vh;
+
+
 }
