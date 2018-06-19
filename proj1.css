@@ -144,7 +144,7 @@ a:active {
 }
 
 .text {
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-family: 'Roboto Mono';
     margin-left: 15%;
     margin-right: 11%;
@@ -230,9 +230,9 @@ a:active {
 }
 
 .text2 {
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-family: 'Roboto Mono';
-    margin-left: 37%;
+    margin-left: 32%;
     margin-top: 5%;
 }
 
