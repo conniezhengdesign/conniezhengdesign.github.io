@@ -113,12 +113,44 @@ li {
 
 .project1 {
     width: 100vw;
-    height: 50vh;
+    height: 90vh;
     display: flex;
-    position: relative;
 }
 
-.bridgeheader {
-    width: 50%;
+.bridge {
+    width: 90%;
     margin: auto;
+}
+
+.headerspace {
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+}
+
+.header1 {
+    font-size: 3vw;
+    font-family: 'Rubik';
+    font-weight: 700;
+    position: relative;
+    margin: auto;
+    padding-top: 15%;
+}
+
+.text1 {
+    position: relative;
+    font-size: 1.5vw;
+    font-family: 'Roboto Mono';
+    line-height: 2;
+    margin: auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 15%;
+}
+
+.bridgesketch {
+    width: 90%;
+    margin: auto;
+    padding-top: 45vh;
 }
