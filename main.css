@@ -198,7 +198,7 @@ li {
     color: black;
     position: relative;
     left: 6vw;
-    top: 20vh;
+    top: 25vh;
     padding: %;
     font-size: 6vw;
     font-family: 'Rubik';
@@ -206,7 +206,11 @@ li {
 }
 
 .scroll {
-    width: 5vw;
+    position: absolute;
+    width: 3vw;
+    left: 70vw;
+    top: 80vh;
+    padding: 5vh;
 }
 
 .space {
