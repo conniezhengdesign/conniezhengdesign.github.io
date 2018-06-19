@@ -110,3 +110,15 @@ li {
 #name {
     left: -50%;
 }
+
+.project1 {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    position: relative;
+}
+
+.bridgeheader {
+    width: 50%;
+    margin: auto;
+}
