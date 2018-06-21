@@ -64,9 +64,9 @@ li {
     color: white;
     background-color: inherit;
     font-family: 'Roboto Mono';
-    position: relative;
-    left: 150%;
-    top: -7vh;
+    position: fixed;
+    left: 57%;
+    top: -01.2%;
     padding: 2vw;
 
 }
@@ -103,7 +103,7 @@ li {
     display: block;
     position: fixed;
     top: 8vh;
-    left: 65vw;
+    left: 58vw;
     width: 25vw;
 }
 
