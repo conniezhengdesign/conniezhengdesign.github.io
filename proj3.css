@@ -111,31 +111,21 @@ li {
     left: -50%;
 }
 
-.project1 {
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-}
-
 .bridge {
     width: 90%;
-    margin: auto;
+    margin-left: 5vw;
 }
 
-.headerspace {
-    position: relative;
-    width: 100vw;
-    height: 15vh;
-    display: flex;
-}
+
 
 .header1 {
+    position: relative;
     font-size: 3vw;
     font-family: 'Rubik';
     font-weight: 700;
-    position: relative;
-    margin: auto;
-    padding-top: 15%;
+    width: 90vw;
+    margin-left: 35vw;
+    margin-top: 15vh;
 }
 
 .text1 {
@@ -143,41 +133,29 @@ li {
     font-size: 1.5vw;
     font-family: 'Roboto Mono';
     line-height: 2;
-    margin: auto;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-top: 15%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
 }
 
-.bridgesketch {
-    width: 70%;
-    margin: auto;
-    padding-top: 40vh;
+.sketch {
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: 15vh;
+
+}
+
+.bridge1 {
+    width: 100%;
+    margin-top: 15vh;
 }
 
 .bridge2 {
-    width: 100%;
-    margin: auto;
-    padding-top: 50vh;
-}
-
-.bridge3 {
-    width: 90%;
-    margin: auto;
-    padding-top: 90vh;
-}
-
-.bridge4 {
     width: 50%;
-    margin: auto;
-    padding-top: 120vh;
+    margin-left: 25%;
+    margin-top: 15vh;
 }
 
-.bridge5 {
-    width: 90%;
-    margin: auto;
-    padding-top: 180vh;
-}
 
 .endspace {
     position: relative;
@@ -195,6 +173,18 @@ li {
     position: relative;
     left: 50vw;
     top: 9vh;
+}
 
+.footer {
+    height: 15vh;
+}
 
+.homelink {
+    position: relative;
+    color: black;
+    font-size: 1.2vw;
+    font-family: 'Roboto Mono';
+    top: 2vh;
+    margin-right: 40;
+    top: 6vh;
 }

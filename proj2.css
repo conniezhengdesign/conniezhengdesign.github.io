@@ -111,33 +111,23 @@ li {
     left: -50%;
 }
 
-.project1 {
-    width: 100vw;
-    display: flex;
-}
+
 
 .didot1 {
-    width: 90%;
-    margin: auto;
+    width: 90vw;
+    margin-left: 5vw;
     position: relative;
-    top: -80vh;
 }
 
-.headerspace {
-    position: relative;
-    width: 100vw;
-    height: 15vh;
-    display: flex;
-}
 
 .header1 {
     position: relative;
     font-size: 3vw;
     font-family: 'Rubik';
     font-weight: 700;
-    position: relative;
-    margin: auto;
-    top: -140vh;
+    width: 90vw;
+    margin-left: 35vw;
+    margin-top: 15vh;
 }
 
 .text1 {
@@ -145,89 +135,34 @@ li {
     font-size: 1.5vw;
     font-family: 'Roboto Mono';
     line-height: 2;
-    margin: auto;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    top: -140vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
 }
 
-.project2 {
+.didot2 {
     position: relative;
     width: 100vw;
-    display: flex;
-    padding-top: 15%;
-}
-
-
-.didotimage2 {
-    position: relative;
-    height: 100%;
-    margin: auto;
-    top: -150vh;
-
+    margin-top: 15vh;
 
 }
 
-.didotimage3 {
-    position: relative;
-    height: 130%;
-    margin: auto;
-    top: -140vh;
-
-}
-
-.didotimage4 {
+.didot3 {
     position: relative;
     width: 90vw;
-    margin: auto;
-    top: -160vh;
-
-}
-
-.didotimage5 {
-    position: relative;
-    width: 90vw;
-    margin: auto;
-    top: -170vh;
-}
-
-.didotimage6 {
-    position: relative;
-    width: 90%;
-    margin: auto;
-    top: -160vh;
-
-}
-
-.didotimage7 {
-    position: relative;
-    width: 130%;
-    margin: auto;
-    top: -1480vh;
-
-}
-
-.didotimage8 {
-    position: relative;
-    width: 120%;
-    margin: auto;
-    margin-top: -270vh;
-
+    margin-left: 5vw;
+    margin-top: 15vh;
 }
 
 .endspace {
-    height: 10px;
-    position: absolute;
-
+    height: 15vh;
 }
 
 .homelink {
+    position: relative;
+    color: black;
     font-size: 1.2vw;
     font-family: 'Roboto Mono';
-    color: black;
-    position: relative;
-    top: -100vh;
-    left: 50vw;
-
-
+    top: 5vh;
+    margin: 47vw
 }
