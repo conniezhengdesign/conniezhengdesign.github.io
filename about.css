@@ -110,3 +110,22 @@ li {
 #name {
     left: -50%;
 }
+
+.leftbox {
+    position: fixed;
+    float: left;
+    width: 50vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    background: #FCC000;
+}
+
+.building {
+    width: 30vw;
+    position: fixed;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
