@@ -132,26 +132,26 @@ li {
     font-family: 'Roboto Mono';
     line-height: 2;
     margin-left: 10vw;
-    margin-right: 5vw;
+    margin-right: 10vw;
     margin-top: 10vh;
 }
 
 .pencil {
     width: 100vh;
     margin-left: 20vw;
-    margin-top: 15vw;
+    margin-top: 10vw;
 }
 
 .pencil2 {
     width: 150vh;
     margin-left: 5vw;
-    margin-top: 15vw;
+    margin-top: 10vw;
 }
 
 .pencil3 {
     width: 150vh;
     margin-left: 5vw;
-    margin-top: 15vw;
+    margin-top: 10vw;
 }
 
 .footer {
