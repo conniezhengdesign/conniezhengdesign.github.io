@@ -142,10 +142,31 @@ li {
     font-family: 'Roboto Mono';
     position: relative;
     top: 15vh;
-    padding: 3vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 0.5vh;
     line-height: 2;
 }
 
+
 .breen {
     color: darkgrey;
+}
+
+.greeting {
+    font-size: 2vw;
+    font-family: 'Rubik';
+    position: relative;
+    top: 20vh;
+    padding-left: 2.5vw;
+    color: #FCC000;
+}
+
+.email {
+    font-size: 1.5vw;
+    position: relative;
+    top: 18vh;
+    left: 2.5vw;
+    font-family: 'Roboto Mono';
+
 }
