@@ -127,5 +127,21 @@ li {
     position: fixed;
     left: 25%;
     top: 50%;
+    width: 27vw;
     transform: translate(-50%, -50%);
+}
+
+.rightbox {
+    float: right;
+    width: 50vw;
+    height: 100vh;
+}
+
+.bio {
+    font-size: 1.5vw;
+    font-family: 'Roboto Mono';
+    position: relative;
+    top: 15vh;
+    padding: 3vw;
+    line-height: 2;
 }
