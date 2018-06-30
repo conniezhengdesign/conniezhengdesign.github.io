@@ -309,3 +309,11 @@ a:active {
 
 
 }
+
+/*-----Mobile responsive----*/
+
+@media only screen and (max-width: 768px) {
+    .ul {
+        display: none;
+    }
+}
