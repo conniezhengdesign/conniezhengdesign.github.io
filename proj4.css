@@ -137,20 +137,20 @@ li {
 }
 
 .pencil {
-    width: 100vh;
-    margin-left: 20vw;
+    width: 75vw;
+    margin-left: 12.5vw;
     margin-top: 10vw;
 }
 
 .pencil2 {
-    width: 150vh;
-    margin-left: 5vw;
+    width: 100vw;
+    margin-left: 0vw;
     margin-top: 10vw;
 }
 
 .pencil3 {
-    width: 150vh;
-    margin-left: 5vw;
+    width: 100vw;
+    margin-left: 0vw;
     margin-top: 10vw;
 }
 
