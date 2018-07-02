@@ -297,3 +297,161 @@ li {
     background-color: black;
     color: white;
 }
+
+.mobilebox {
+    position: relative;
+    display: none;
+    background-color: #FCC000;
+    width: 100vw;
+    height: 75vh;
+}
+
+.mobilegif {
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    top: 12vh;
+}
+
+.mobilebox2 {
+    position: relative;
+    display: none;
+    background-color: white;
+    width: 100vw;
+    height: 35vh;
+}
+
+
+.m-greeting {
+    font-family: 'Rubik';
+    font-weight: 800;
+    font-size: 9vw;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.mobilebox3 {
+    position: relative;
+    display: none;
+    background-color: #9E9E9E;
+    width: 100vw;
+    height: 75vh;
+}
+
+.m-marketing {
+    width: 70vw;
+    position: relative;
+    top: 13.5vh;
+    left: 13.5vw;
+}
+
+.mobilebox4 {
+    position: relative;
+    display: none;
+    background-color: #80C197;
+    width: 100vw;
+    height: 75vh;
+}
+
+.m-didot {
+    width: 60vw;
+    position: relative;
+    top: 6vh;
+    left: 20vw;
+}
+
+.mobilebox5 {
+    position: relative;
+    display: none;
+    background-color: #4173CB;
+    width: 100vw;
+    height: 75vh;
+}
+
+.m-bridge {
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    top: 15vh;
+}
+
+.mobilebox6 {
+    position: relative;
+    display: none;
+    background-color: #FFB8B8;
+    width: 100vw;
+    height: 75vh;
+}
+
+.m-pencil {
+    position: relative;
+    width: 60vw;
+    left: 20vw;
+    top: 9vh;
+}
+
+@media only screen and (max-width: 700px) {
+    .image1 {
+        display: none;
+    }
+    .leftbox {
+        display: none;
+    }
+
+    .rightbox {
+        display: none;
+    }
+
+    .project1 {
+        display: none;
+    }
+
+
+    .project2 {
+        display: none;
+    }
+
+
+    .project3 {
+        display: none;
+    }
+
+
+    .project4 {
+        display: none;
+    }
+
+
+    .mobilebox {
+        display: block;
+    }
+
+    .mobilegif {
+        display: block;
+
+    }
+
+    .mobilebox2 {
+        display: block;
+    }
+
+    .mobilebox3 {
+        display: block;
+    }
+
+    .mobilebox4 {
+        display: block;
+    }
+
+    .mobilebox5 {
+        display: block;
+    }
+
+    .mobilebox6 {
+        display: block;
+    }
+
+    .space {
+        height: 0vh;
+    }
+}
