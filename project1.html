@@ -22,23 +22,7 @@
         <a href="#">Contact</a>
     </div>
 
-    <div class="nav">
-        <ul class="ul" id="ul">
-            <li id="name"><a href="index.html">CONNIE ZHENG</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">WORK
-      <i class="fa fa-caret-down"></i>
-    </button>
-                <div class="dropdown-content">
-                    <a href="project1.html" class="active">Marketing Icon Gifs</a>
-                    <a href="project2.html">Didot Type Book</a>
-                    <a href="project3.html">Spatial Translation</a>
-                    <a href="project4.html">Visual Explanation</a>
-                </div>
-            </div>
-            <li><a href="about.html">ABOUT/CONTACT</a></li>
-        </ul>
-    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="navposition">&#9776;</span>
     <div class="header">
         <img src="images/socialmanager.gif" class="socialmanager">
         <h class="title">MARKETING ICON GIFS</h>
@@ -107,6 +91,14 @@
                 x[i].style.display = "none";
             }
             x[slideIndex - 1].style.display = "block";
+        }
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "50vw";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
         }
 
     </script>
