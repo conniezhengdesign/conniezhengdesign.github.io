@@ -307,10 +307,11 @@ li {
 }
 
 .mobilegif {
+    display: none;
     width: 80vw;
     position: relative;
     left: 10vw;
-    top: 12vh;
+    top: 20vw;
 }
 
 .mobilebox2 {

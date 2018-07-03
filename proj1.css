@@ -256,8 +256,73 @@ a:active {
 
 /*-----Mobile responsive----*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .ul {
         display: none;
     }
+    .socialmanager {
+        width: 70vw;
+        left: 15vw;
+    }
+
+    .title {
+        font-size: 5vw;
+        position: relative;
+        left: 21vw;
+        top: -1vh;
+        z-index: 3;
+    }
+
+    .text {
+        font-size: 3vw;
+        top: -10vh;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }
+
+    .responsive {
+        width: 70vw;
+        left: 15vw;
+    }
+
+    .seo {
+        width: 70vw;
+        left: 15vw;
+    }
+
+    .projecttitle {
+        font-size: 5vw;
+        position: relative;
+        left: -8vw;
+        top: 10vh;
+
+    }
+
+    .sketch1 {
+        width: 40%;
+        position: relative;
+        margin-left: 30%;
+        top: 15vh
+    }
+
+    .sketch2 {
+        width: 40%;
+        position: relative;
+        margin-left: 30%;
+        top: 17vh
+    }
+
+    .sketch3 {
+        width: 40%;
+        position: relative;
+        margin-left: 30%;
+        top: -6vh
+    }
+
+    .remarketing {
+        width: 70vw;
+
+    }
+
+
 }
