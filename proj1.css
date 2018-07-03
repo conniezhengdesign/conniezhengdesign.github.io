@@ -293,7 +293,7 @@ a:active {
     .projecttitle {
         font-size: 5vw;
         position: relative;
-        left: -8vw;
+        left: -5vw;
         top: 10vh;
 
     }
@@ -321,7 +321,58 @@ a:active {
 
     .remarketing {
         width: 70vw;
+        margin-left: 15vw
+    }
 
+    .projecttitle {
+        font-size: 5vw;
+        position: relative;
+        left: -9vw;
+        top: 5vh;
+
+    }
+
+    .sketch4 {
+        width: 40%;
+        position: relative;
+        margin-left: 30%;
+        top: 15vh
+    }
+
+    .sketch5 {
+        width: 40%;
+        position: relative;
+        margin-left: 30%;
+        top: 17vh
+    }
+
+    .sketch6 {
+        width: 40%;
+        position: relative;
+        margin-left: 30%;
+        top: -6vh
+    }
+
+    .socialmedia {
+        width: 70vw;
+        margin-left: 15vw;
+
+    }
+
+    .text2 {
+        font-size: 3vw;
+        margin-left: 8vw;
+
+    }
+
+    .brand {
+        width: 70vw;
+        margin-left: 15vw;
+    }
+
+    .homelink {
+        font-size: 4vw;
+        margin-left: -4vw;
     }
 
 
