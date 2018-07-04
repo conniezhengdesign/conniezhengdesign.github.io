@@ -18,12 +18,12 @@
 
     <div id="toggle-button" onclick="toggleNav()">+</div>
     <div id="nav">
-        <a href="index.html" class="link1">Home</a>
-        <a href="project1.html" class="link">Marketing Gif Icons</a>
-        <a href="project2.html" class="link">Didot Type Book</a>
-        <a href="project3.html" class="link">Spatial Translation</a>
-        <a href="project4.html" class="link">Visual Translation</a>
-        <a href="about.html" class="link">About/Contact</a>
+        <div><a href="index.html" class="link1" id="active">Home</a></div>
+        <a href="project1.html" class="link1">Marketing Gif Icons</a>
+        <a href="project2.html" class="link1">Didot Type Book</a>
+        <div><a href="project3.html" class="link1">Spatial Translation</a></div>
+        <div><a href="project4.html" class="link1">Visual Translation</a></div>
+        <div><a href="about.html" class="link1">About/Contact</a></div>
     </div>
 
     <!----mobile stuff-->
@@ -197,10 +197,12 @@
 
         function toggleNav() {
             if (opened === false) {
-                document.getElementById("nav").style.width = "50vw";
+                document.getElementById("nav").style.width = "51vw";
                 opened = true;
                 document.getElementById("toggle-button").style.transform = "rotate(45deg)";
                 document.getElementById("toggle-button").style.color = "white";
+
+
             } else {
                 document.getElementById("nav").style.width = "0px";
                 opened = false;
@@ -209,6 +211,14 @@
 
             }
         }
+
+        var nav = window.matchMedia("(max-width: 700px)");
+        if (nav.matches) {
+            document.getElementById("nav").style.width = "100vw";
+        } else {
+            document.getElementById("nav").style.width = "51vw";
+        }
+
     </script>
 
 </body>

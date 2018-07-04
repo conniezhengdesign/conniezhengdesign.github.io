@@ -5,7 +5,7 @@ body {
 }
 
 #toggle-button {
-    font-size: 36px;
+    font-size: 4vw;
     font-weight: bold;
     position: fixed;
     right: 0;
@@ -23,9 +23,10 @@ body {
 #nav {
     margin: 0;
     padding: 0;
+    display: block;
     background-color: black;
     color: white;
-    height: 100vw;
+    height: 100vh;
     position: fixed;
     top: 0px;
     right: 0;
@@ -36,24 +37,40 @@ body {
 }
 
 .link1 {
-
-    padding-left: 7vw;
-    padding-top: 20vh;
-    font-size: 3vw;
+    position: relative;
+    padding-left: 3vw;
+    top: 25vh;
+    margin-top: 3vh;
+    font-size: 4vw;
+    color: white;
     z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
 
 }
 
-.link {
-    padding-left: 7vw;
-    padding-top: 4vh;
-    font-size: 3vw;
-    z-index: 3;
+a:visited {
+    color: white;
+    text-decoration: none;
 }
 
+#active {
+    color: #FCC000;
+}
 
+.link1:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
 
-
+.link2:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
 
 .leftbox {
     position: fixed;
@@ -410,5 +427,9 @@ body {
 
     .mobilebox7 {
         display: block;
+    }
+
+    .nav {
+        width: 100vw;
     }
 }
