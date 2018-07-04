@@ -16,23 +16,14 @@
 
 <body>
 
-
-    <div class="nav">
-        <ul class="ul" id="ul">
-            <li id="name"><a href="index.html">CONNIE ZHENG</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">WORK
-      <i class="fa fa-caret-down"></i>
-    </button>
-                <div class="dropdown-content">
-                    <a href="project1.html">Marketing Icon Gifs</a>
-                    <a href="project2.html">Didot Type Book</a>
-                    <a href="project3.html">Spatial Translation</a>
-                    <a href="project4.html">Visual Explanation</a>
-                </div>
-            </div>
-            <li><a href="about.html">ABOUT/CONTACT</a></li>
-        </ul>
+    <div id="toggle-button" onclick="toggleNav()">+</div>
+    <div id="nav">
+        <a href="index.html" class="link1">Home</a>
+        <a href="project1.html" class="link">Marketing Gif Icons</a>
+        <a href="project2.html" class="link">Didot Type Book</a>
+        <a href="project3.html" class="link">Spatial Translation</a>
+        <a href="project4.html" class="link">Visual Translation</a>
+        <a href="about.html" class="link">About/Contact</a>
     </div>
 
     <!----mobile stuff-->
@@ -201,6 +192,23 @@
                 $('.pencilposter').fadeOut();
             }
         });
+
+        var opened = false;
+
+        function toggleNav() {
+            if (opened === false) {
+                document.getElementById("nav").style.width = "50vw";
+                opened = true;
+                document.getElementById("toggle-button").style.transform = "rotate(45deg)";
+                document.getElementById("toggle-button").style.color = "white";
+            } else {
+                document.getElementById("nav").style.width = "0px";
+                opened = false;
+                document.getElementById("toggle-button").style.transform = "rotate(0deg)";
+                document.getElementById("toggle-button").style.color = "black";
+
+            }
+        }
     </script>
 
 </body>
