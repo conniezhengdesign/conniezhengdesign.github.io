@@ -167,3 +167,32 @@ li {
     margin-left: 50vw;
     top: 6vh;
 }
+
+/*-----Mobile responsive----*/
+
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 100vw;
+        margin-left: 0;
+    }
+    .header1 {
+        font-size: 5vw;
+        margin-left: 22vw;
+    }
+
+    .text1 {
+        font-size: 3vw;
+    }
+
+    .pencil {
+        width: 100vw;
+        margin-left: 0;
+
+    }
+
+    .homelink {
+        font-size: 4vw;
+        margin-left: 47vw;
+    }
+
+}

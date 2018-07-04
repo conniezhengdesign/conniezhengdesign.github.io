@@ -166,3 +166,33 @@ li {
     top: 5vh;
     margin: 47vw
 }
+
+/*-----Mobile responsive----*/
+
+@media only screen and (max-width: 600px) {
+    .didot1 {
+        width: 100vw;
+        top: 5vh;
+        margin-left: 0;
+    }
+
+    .header1 {
+        font-size: 5vw;
+        margin-left: 27vw;
+    }
+
+    .text1 {
+        font-size: 3vw;
+        margin-left: 8vw;
+    }
+
+    .didot3 {
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .homelink {
+        font-size: 4vw;
+        margin-left: 45vw;
+    }
+}

@@ -170,3 +170,53 @@ li {
     font-family: 'Roboto Mono';
 
 }
+
+.m-building {
+    display: none;
+}
+
+/*-----Mobile responsive----*/
+
+@media only screen and (max-width: 600px) {
+    .leftbox {
+        display: none;
+    }
+    .rightbox {
+        display
+    }
+
+
+    .bio {
+        font-size: 3vw;
+        padding: 0;
+        top: 65vh;
+        width: 80vw;
+        margin-left: -40vw;
+
+    }
+
+    .greeting {
+        font-size: 5vw;
+        padding: 0;
+        top: 70vh;
+        width: 80vw;
+        margin-left: -40vw;
+    }
+
+    .email {
+        font-size: 4vw;
+        top: 68vh;
+        width: 80vw;
+        margin-left: -43vw;
+        padding-bottom: 5vh;
+
+    }
+
+    .m-building {
+        display: block;
+        width: 50vw;
+        position: relative;
+        top: -45vh;
+        left: -25vw;
+    }
+}

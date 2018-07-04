@@ -391,6 +391,24 @@ li {
     top: 9vh;
 }
 
+.mobilebox7 {
+    display: none;
+    height: 13vh;
+}
+
+.about{
+    color:black;
+    position:relative;
+    font-family:'Rubik';
+    font-size:8vw;
+    text-align: center;
+    margin-left:12vw;
+    top:3vh;
+    font-weight:800;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .image1 {
         display: none;
@@ -454,5 +472,9 @@ li {
 
     .space {
         height: 0vh;
+    }
+
+    .mobilebox7 {
+        display: block;
     }
 }
