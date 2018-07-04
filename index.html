@@ -212,11 +212,20 @@
             }
         }
 
-        var nav = window.matchMedia("(max-width: 700px)");
-        if (nav.matches) {
+        var win = jQuery(window);
+        var winWidth = win.width();
+        if (winWidth < 600 && opened === false) {
             document.getElementById("nav").style.width = "100vw";
+            opened = true;
+            document.getElementById("toggle-button").style.transform = "rotate(45deg)";
+            document.getElementById("toggle-button").style.color = "white";
+
         } else {
-            document.getElementById("nav").style.width = "51vw";
+            document.getElementById("nav").style.width = "0px";
+            opened = false;
+            document.getElementById("toggle-button").style.transform = "rotate(0deg)";
+            document.getElementById("toggle-button").style.color = "black";
+
         }
 
     </script>
