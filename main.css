@@ -563,7 +563,7 @@ a:visited {
         font-size: 8vw;
         top: 25vh;
         position: absolute;
-        left: -20vw;
+        left: -17vw;
     }
     .link3 {
         font-size: 8vw;
@@ -576,20 +576,24 @@ a:visited {
     .link4 {
         font-size: 8vw;
         top: 45vh;
-        left: -15vw;
+        left: -17vw;
         position: absolute;
     }
     .link5 {
         font-size: 8vw;
         top: 55vh;
-        left: -15vw;
+        left: -18vw;
         position: absolute;
     }
 
     .link6 {
         font-size: 8vw;
         top: 65vh;
-        left: -15vw;
+        left: -16vw;
         position: absolute;
+    }
+
+    #toggle-button {
+        font-size: 13vw;
     }
 }

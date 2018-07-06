@@ -38,10 +38,96 @@ body {
 
 .link1 {
     position: relative;
-    padding-left: 3vw;
-    top: 25vh;
+    padding-left: 43vw;
+    top: 20vh;
     margin-top: 3vh;
-    font-size: 4vw;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+    text-align: center;
+
+}
+
+.link2 {
+    position: relative;
+    padding-left: 25vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+
+}
+
+.link3 {
+    position: relative;
+    padding-left: 30vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+
+}
+
+.link4 {
+    position: relative;
+    padding-left: 25vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+
+}
+
+.link5 {
+    position: relative;
+    padding-left: 27vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+
+}
+
+.link6 {
+    position: relative;
+    padding-left: 31vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
     color: white;
     z-index: 3;
     overflow: hidden;
@@ -58,10 +144,6 @@ a:visited {
     text-decoration: none;
 }
 
-#active {
-    color: #FCC000;
-}
-
 .link1:hover {
     color: #FCC000;
     text-decoration: none;
@@ -72,59 +154,24 @@ a:visited {
     text-decoration: none;
 }
 
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 50vw;
-    background-color: black;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 20px;
-    font-size: 36px;
-    margin-left: 0px;
-}
-
-.navposition {
-    position: fixed;
-    left: 95vw;
-    color: red;
-    font-size: 1vw;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
-
-a:active {
+.link3:hover {
     color: #FCC000;
+    text-decoration: none;
+}
+
+.link4:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
+
+.link5:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
+
+.link6:hover {
+    color: #FCC000;
+    text-decoration: none;
 }
 
 .header {

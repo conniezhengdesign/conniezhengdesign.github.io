@@ -13,22 +13,14 @@
 </head>
 
 <body>
-    <div class="nav">
-        <ul class="ul" id="ul">
-            <li id="name"><a href="index.html">CONNIE ZHENG</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">WORK
-      <i class="fa fa-caret-down"></i>
-    </button>
-                <div class="dropdown-content">
-                    <a href="project1.html" class="active">Marketing Icon Gifs</a>
-                    <a href="project2.html">Didot Type Book</a>
-                    <a href="project3.html">Spatial Translation</a>
-                    <a href="project4.html">Visual Explanation</a>
-                </div>
-            </div>
-            <li><a href="about.html">ABOUT/CONTACT</a></li>
-        </ul>
+    <div id="toggle-button" onclick="toggleNav()">+</div>
+    <div id="nav">
+        <a href="index.html" class="link1" id="active">Home</a>
+        <a href="project1.html" class="link2">Marketing Gif Icons</a>
+        <a href="project2.html" class="link3">Didot Type Book</a>
+        <a href="project3.html" class="link4">Spatial Translation</a>
+        <a href="project4.html" class="link5">Visual Translation</a>
+        <a href="about.html" class="link6">About/Contact</a>
     </div>
 
     <img src="images/pencil1.jpg" class="header">
@@ -42,5 +34,55 @@
 <div class="footer">
     <a href="index.html" class="homelink">HOME</a>
 </div>
+
+<script>
+    var opened = false;
+
+    function toggleNav() {
+        if (opened === false) {
+            document.getElementById("nav").style.width = "100vw";
+            opened = true;
+            document.getElementById("toggle-button").style.transform = "rotate(45deg)";
+            document.getElementById("toggle-button").style.color = "white";
+
+
+        } else {
+            document.getElementById("nav").style.width = "0px";
+            opened = false;
+            document.getElementById("toggle-button").style.transform = "rotate(0deg)";
+            document.getElementById("toggle-button").style.color = "black";
+
+        }
+    }
+
+
+    $('.link2').hover(function() {
+        document.getElementById("nav").style.backgroundColor = "grey";
+
+    }, function() {
+        document.getElementById("nav").style.backgroundColor = "black";
+
+    });
+
+    $('.link3').hover(function() {
+        document.getElementById("nav").style.backgroundColor = "#80C197";
+    }, function() {
+        document.getElementById("nav").style.backgroundColor = "black";
+
+    });
+    $('.link4').hover(function() {
+        document.getElementById("nav").style.backgroundColor = "#4173CB";
+    }, function() {
+        document.getElementById("nav").style.backgroundColor = "black";
+
+    });
+    $('.link5').hover(function() {
+        document.getElementById("nav").style.backgroundColor = "#FFB8B8";
+    }, function() {
+        document.getElementById("nav").style.backgroundColor = "black";
+
+    });
+
+</script>
 
 </html>
