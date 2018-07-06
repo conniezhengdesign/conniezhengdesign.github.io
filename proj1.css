@@ -4,6 +4,74 @@ body {
     padding: 0;
 }
 
+#toggle-button {
+    font-size: 4vw;
+    font-weight: bold;
+    position: fixed;
+    right: 0;
+    color: black;
+    transition: .3s;
+    z-index: 4;
+    right: 3vw;
+}
+
+#toggle-button:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    z-index: 3;
+    /* align the box from RIGHT so it changes width from RIGHT */
+    width: 0px;
+    transition: .5s;
+}
+
+.link1 {
+    position: relative;
+    padding-left: 3vw;
+    top: 25vh;
+    margin-top: 3vh;
+    font-size: 4vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#active {
+    color: #FCC000;
+}
+
+.link1:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
+
+.link2:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
+
 
 .sidenav {
     height: 100%;

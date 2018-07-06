@@ -38,10 +38,96 @@ body {
 
 .link1 {
     position: relative;
-    padding-left: 3vw;
-    top: 25vh;
+    padding-left: 43vw;
+    top: 20vh;
     margin-top: 3vh;
-    font-size: 4vw;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+    text-align: center;
+
+}
+
+.link2 {
+    position: relative;
+    padding-left: 25vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+
+}
+
+.link3 {
+    position: relative;
+    padding-left: 30vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+
+}
+
+.link4 {
+    position: relative;
+    padding-left: 25vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+
+}
+
+.link5 {
+    position: relative;
+    padding-left: 27vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
+    color: white;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Rubik';
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+
+}
+
+.link6 {
+    position: relative;
+    padding-left: 31vw;
+    top: 20vh;
+    margin-top: 3vh;
+    font-size: 5vw;
     color: white;
     z-index: 3;
     overflow: hidden;
@@ -58,16 +144,32 @@ a:visited {
     text-decoration: none;
 }
 
-#active {
-    color: #FCC000;
-}
-
 .link1:hover {
     color: #FCC000;
     text-decoration: none;
 }
 
 .link2:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
+
+.link3:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
+
+.link4:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
+
+.link5:hover {
+    color: #FCC000;
+    text-decoration: none;
+}
+
+.link6:hover {
     color: #FCC000;
     text-decoration: none;
 }
@@ -83,6 +185,24 @@ a:visited {
     transition: 0.3s all;
     background: #FCC000;
 
+}
+
+.nav-marketing1 {
+    position: absolute;
+    left: 4vw;
+    width: 30vw;
+    top: 5vh;
+    opacity: 0.7;
+    display: none;
+}
+
+.nav-marketing2 {
+    position: absolute;
+    left: 66vw;
+    width: 30vw;
+    top: 55vh;
+    opacity: 0.7;
+    display: none;
 }
 
 .color1 {
@@ -429,7 +549,47 @@ a:visited {
         display: block;
     }
 
-    .nav {
+    #nav {
         width: 100vw;
+
+    }
+
+    .link1 {
+        font-size: 8vw;
+        position: relative;
+        left: -5vw;
+    }
+    .link2 {
+        font-size: 8vw;
+        top: 25vh;
+        position: absolute;
+        left: -20vw;
+    }
+    .link3 {
+        font-size: 8vw;
+        left: 20vw;
+        top: 35vh;
+        left: -15vw;
+        position: absolute;
+
+    }
+    .link4 {
+        font-size: 8vw;
+        top: 45vh;
+        left: -15vw;
+        position: absolute;
+    }
+    .link5 {
+        font-size: 8vw;
+        top: 55vh;
+        left: -15vw;
+        position: absolute;
+    }
+
+    .link6 {
+        font-size: 8vw;
+        top: 65vh;
+        left: -15vw;
+        position: absolute;
     }
 }

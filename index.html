@@ -18,12 +18,14 @@
 
     <div id="toggle-button" onclick="toggleNav()">+</div>
     <div id="nav">
-        <div><a href="index.html" class="link1" id="active">Home</a></div>
-        <a href="project1.html" class="link1">Marketing Gif Icons</a>
-        <a href="project2.html" class="link1">Didot Type Book</a>
-        <div><a href="project3.html" class="link1">Spatial Translation</a></div>
-        <div><a href="project4.html" class="link1">Visual Translation</a></div>
-        <div><a href="about.html" class="link1">About/Contact</a></div>
+        <a href="index.html" class="link1" id="active">Home</a>
+        <a href="project1.html" class="link2">Marketing Gif Icons</a>
+        <a href="project2.html" class="link3">Didot Type Book</a>
+        <a href="project3.html" class="link4">Spatial Translation</a>
+        <a href="project4.html" class="link5">Visual Translation</a>
+        <a href="about.html" class="link6">About/Contact</a>
+        <img src="images/marketinggif.gif" class="nav-marketing1">
+        <img src="images/responsive.gif" class="nav-marketing2">
     </div>
 
     <!----mobile stuff-->
@@ -197,7 +199,7 @@
 
         function toggleNav() {
             if (opened === false) {
-                document.getElementById("nav").style.width = "51vw";
+                document.getElementById("nav").style.width = "100vw";
                 opened = true;
                 document.getElementById("toggle-button").style.transform = "rotate(45deg)";
                 document.getElementById("toggle-button").style.color = "white";
@@ -212,24 +214,33 @@
             }
         }
 
-        var win = jQuery(window);
-        var winWidth = win.width();
-        if (winWidth < 600 && opened === false) {
-            document.getElementById("nav").style.width = "100vw";
-            opened = true;
-            document.getElementById("toggle-button").style.transform = "rotate(45deg)";
-            document.getElementById("toggle-button").style.color = "white";
+        $('.link2').hover(function() {
+            document.getElementById("nav").style.backgroundColor = "grey";
 
-        } else {
-            document.getElementById("nav").style.width = "0px";
-            opened = false;
-            document.getElementById("toggle-button").style.transform = "rotate(0deg)";
-            document.getElementById("toggle-button").style.color = "black";
+        }, function() {
+            document.getElementById("nav").style.backgroundColor = "black";
 
-        }
+        });
 
+        $('.link3').hover(function() {
+            document.getElementById("nav").style.backgroundColor = "#80C197";
+        }, function() {
+            document.getElementById("nav").style.backgroundColor = "black";
+
+        });
+        $('.link4').hover(function() {
+            document.getElementById("nav").style.backgroundColor = "#4173CB";
+        }, function() {
+            document.getElementById("nav").style.backgroundColor = "black";
+
+        });
+        $('.link5').hover(function() {
+            document.getElementById("nav").style.backgroundColor = "#FFB8B8";
+        }, function() {
+            document.getElementById("nav").style.backgroundColor = "black";
+
+        });
     </script>
-
 </body>
 
 </html>

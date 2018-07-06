@@ -15,15 +15,15 @@
 <body>
 
 
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+    <div id="toggle-button" onclick="toggleNav()">+</div>
+    <div id="nav">
+        <div><a href="index.html" class="link1">Home</a></div>
+        <a href="project1.html" class="link1" id="active">Marketing Gif Icons</a>
+        <a href="project2.html" class="link1">Didot Type Book</a>
+        <div><a href="project3.html" class="link1">Spatial Translation</a></div>
+        <div><a href="project4.html" class="link1">Visual Translation</a></div>
+        <div><a href="about.html" class="link1">About/Contact</a></div>
     </div>
-
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="navposition">&#9776;</span>
 
     <img src="images/socialmanager.gif" class="socialmanager">
     <h class="title">MARKETING ICON GIFS</h>
@@ -72,34 +72,23 @@
     </div>
 
     <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
+        var opened = false;
 
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
+        function toggleNav() {
+            if (opened === false) {
+                document.getElementById("nav").style.width = "51vw";
+                opened = true;
+                document.getElementById("toggle-button").style.transform = "rotate(45deg)";
+                document.getElementById("toggle-button").style.color = "white";
 
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) {
-                slideIndex = 1
+
+            } else {
+                document.getElementById("nav").style.width = "0px";
+                opened = false;
+                document.getElementById("toggle-button").style.transform = "rotate(0deg)";
+                document.getElementById("toggle-button").style.color = "black";
+
             }
-            if (n < 1) {
-                slideIndex = x.length
-            };
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex - 1].style.display = "block";
-        }
-
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "50vw";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
         }
     </script>
 
