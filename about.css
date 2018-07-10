@@ -215,6 +215,12 @@ a:visited {
 
 .breen {
     color: darkgrey;
+    text-decoration-style: none;
+}
+
+.breen:visited {
+    color: darkgrey;
+    text-decoration-style: none;
 }
 
 .greeting {
