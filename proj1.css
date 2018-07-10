@@ -489,6 +489,47 @@ a:visited {
         font-size: 4vw;
         margin-left: -4vw;
     }
+    .link1 {
+        font-size: 8vw;
+        position: relative;
+        left: -5vw;
+    }
+    .link2 {
+        font-size: 8vw;
+        top: 25vh;
+        position: absolute;
+        left: -17vw;
+    }
+    .link3 {
+        font-size: 8vw;
+        left: 20vw;
+        top: 35vh;
+        left: -15vw;
+        position: absolute;
 
+    }
+    .link4 {
+        font-size: 8vw;
+        top: 45vh;
+        left: -17vw;
+        position: absolute;
+    }
+    .link5 {
+        font-size: 8vw;
+        top: 55vh;
+        left: -18vw;
+        position: absolute;
+    }
+
+    .link6 {
+        font-size: 8vw;
+        top: 65vh;
+        left: -16vw;
+        position: absolute;
+    }
+
+    #toggle-button {
+        font-size: 13vw;
+    }
 
 }
