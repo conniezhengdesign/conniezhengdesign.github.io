@@ -339,7 +339,8 @@ a:visited {
 .text {
     font-family: 'Roboto Mono';
     position: relative;
-    left: 3vw;
+    width: 37vw;
+    left: 3.5vw;
     top: 35vh;
     padding: 8%;
     font-size: 1.5vw;
